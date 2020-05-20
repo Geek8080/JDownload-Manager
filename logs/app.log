@@ -1,0 +1,35 @@
+INFO  | 2020-05-18 19:23:34 | [JavaFX Application Thread] ? (:) - Successfully assigned Controller to the FXML and set the root.
+INFO  | 2020-05-18 19:23:42 | [JavaFX Application Thread] ? (:) - Successfully assigned Controller to the FXML and set the root.
+INFO  | 2020-05-18 19:23:44 | [JavaFX Application Thread] ? (:) - Declared rotation animation.
+INFO  | 2020-05-18 19:23:44 | [JavaFX Application Thread] ? (:) - Defined an animation to fade in titlePane.
+INFO  | 2020-05-18 19:23:44 | [JavaFX Application Thread] ? (:) - Defined an animation to fade out nameHBox.
+INFO  | 2020-05-18 19:23:44 | [JavaFX Application Thread] ? (:) - Defined an animation to fade out shrinkPane(Main Content- Info).
+INFO  | 2020-05-18 19:23:44 | [JavaFX Application Thread] ? (:) - Played fade animations for tilePane, nameHBox and shrinkPane.
+INFO  | 2020-05-18 19:23:44 | [JavaFX Application Thread] ? (:) - Changed state of card to collapsed.
+INFO  | 2020-05-18 19:23:44 | [JavaFX Application Thread] ? (:) - Added timer task to schedule with delay of 0ms.
+INFO  | 2020-05-18 19:23:44 | [JavaFX Application Thread] ? (:) - Started the rotation animation.
+INFO  | 2020-05-18 19:23:46 | [JavaFX Application Thread] ? (:) - Declared rotation animation.
+INFO  | 2020-05-18 19:23:46 | [JavaFX Application Thread] ? (:) - Defined an animation to fade out titlePane.
+INFO  | 2020-05-18 19:23:46 | [JavaFX Application Thread] ? (:) - Defined an animation to fade in nameHBox.
+INFO  | 2020-05-18 19:23:46 | [JavaFX Application Thread] ? (:) - Defined an animation to fade in shrinkPane(Main Content- Info).
+INFO  | 2020-05-18 19:23:46 | [JavaFX Application Thread] ? (:) - Played fade animations for tilePane, nameHBox and shrinkPane.
+INFO  | 2020-05-18 19:23:46 | [JavaFX Application Thread] ? (:) - Changed state of card to expanded.
+INFO  | 2020-05-18 19:23:46 | [JavaFX Application Thread] ? (:) - Added timer task to schedule with delay of 0ms.
+INFO  | 2020-05-18 19:23:46 | [JavaFX Application Thread] ? (:) - Started the rotation animation.
+INFO  | 2020-05-18 19:23:47 | [JavaFX Application Thread] ? (:) - Declared rotation animation.
+INFO  | 2020-05-18 19:23:47 | [JavaFX Application Thread] ? (:) - Defined an animation to fade in titlePane.
+INFO  | 2020-05-18 19:23:47 | [JavaFX Application Thread] ? (:) - Defined an animation to fade out nameHBox.
+INFO  | 2020-05-18 19:23:47 | [JavaFX Application Thread] ? (:) - Defined an animation to fade out shrinkPane(Main Content- Info).
+INFO  | 2020-05-18 19:23:47 | [JavaFX Application Thread] ? (:) - Played fade animations for tilePane, nameHBox and shrinkPane.
+INFO  | 2020-05-18 19:23:47 | [JavaFX Application Thread] ? (:) - Changed state of card to collapsed.
+INFO  | 2020-05-18 19:23:47 | [JavaFX Application Thread] ? (:) - Added timer task to schedule with delay of 0ms.
+INFO  | 2020-05-18 19:23:47 | [JavaFX Application Thread] ? (:) - Started the rotation animation.
+INFO  | 2020-05-18 19:48:37 | [JavaFX Application Thread] ? (:) - Successfully assigned Controller to the FXML and set the root.
+INFO  | 2020-05-18 19:48:39 | [JavaFX Application Thread] ? (:) - Declared rotation animation.
+INFO  | 2020-05-18 19:48:39 | [JavaFX Application Thread] ? (:) - Defined an animation to fade in titlePane.
+INFO  | 2020-05-18 19:48:39 | [JavaFX Application Thread] ? (:) - Defined an animation to fade out nameHBox.
+INFO  | 2020-05-18 19:48:39 | [JavaFX Application Thread] ? (:) - Defined an animation to fade out shrinkPane(Main Content- Info).
+INFO  | 2020-05-18 19:48:39 | [JavaFX Application Thread] ? (:) - Played fade animations for tilePane, nameHBox and shrinkPane.
+INFO  | 2020-05-18 19:48:39 | [JavaFX Application Thread] ? (:) - Changed state of card to collapsed.
+INFO  | 2020-05-18 19:48:39 | [JavaFX Application Thread] ? (:) - Added timer task to schedule with delay of 0ms.
+INFO  | 2020-05-18 19:48:39 | [JavaFX Application Thread] ? (:) - Started the rotation animation.

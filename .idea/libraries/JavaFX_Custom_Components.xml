@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="JavaFX Custom Components">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/JavaFX Custom Components.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

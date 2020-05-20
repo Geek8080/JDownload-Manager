@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="JavaFXApp">
+    <output-path>$PROJECT_DIR$/out/artifacts/JavaFXApp</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="sample.Main" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="JavaFXApp.jar">
+        <element id="module-output" name="JDM" />
+        <element id="library" level="project" name="log4j-core-2.0-rc2" />
+        <element id="library" level="project" name="log4j-api-2.0-rc2" />
+        <element id="library" level="project" name="jfoenix-8.0.8" />
+        <element id="library" level="project" name="JavaFX Custom Components" />
+      </element>
+    </root>
+  </artifact>
+</component>

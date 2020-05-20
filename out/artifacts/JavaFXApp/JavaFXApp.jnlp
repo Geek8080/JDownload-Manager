@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="JavaFXApp.jnlp">
+  <information>
+    <title>JavaFXApp</title>
+    <vendor>Unknown</vendor>
+    <description>JavaFXApp</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="JavaFX Custom Components.jar" size="104556" download="eager" />
+    <jar href="JavaFXApp.jar" size="1142" download="eager" />
+    <jar href="controlsfx-11.0.0.jar" size="932275" download="eager" />
+    <jar href="javafx-base-11.0.2-win.jar" size="750047" download="eager" />
+    <jar href="javafx-base-11.0.2.jar" size="302" download="eager" />
+    <jar href="javafx-controls-11.0.2-win.jar" size="2511137" download="eager" />
+    <jar href="javafx-controls-11.jar" size="306" download="eager" />
+    <jar href="javafx-graphics-11.0.2-win.jar" size="6024207" download="eager" />
+    <jar href="javafx-graphics-11.0.2.jar" size="306" download="eager" />
+    <jar href="javafx-media-11-win.jar" size="1083912" download="eager" />
+    <jar href="javafx-media-11.jar" size="303" download="eager" />
+    <jar href="javafx-web-11-win.jar" size="23263931" download="eager" />
+    <jar href="javafx-web-11.jar" size="301" download="eager" />
+    <jar href="jfoenix-8.0.8.jar" size="2708772" download="eager" />
+    <jar href="jmetro-11.6.11.jar" size="84273" download="eager" />
+    <jar href="log4j-api-2.0-rc2.jar" size="118139" download="eager" />
+    <jar href="log4j-core-2.0-rc2.jar" size="768972" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="600" height="400" main-class="sample.Main"  name="JavaFXApp" />
+  <update check="background"/>
+</jnlp>
