@@ -1,3 +1,41 @@
-<Configuration status="OFF">
+<Configuration status="ALL">
+    <Appenders>
+        <Console name="LogToConsole" target="SYSTEM_OUT">
+            <PatternLayout pattern="%-5p | %d{yyyy-MM-dd HH:mm:ss} | [%t] %C{2} (%F:%L) - %m%n"/>
+        </Console>
+
+        <RollingRandomAccessFile name="LogToFile" fileName="logs/app.log"
+                                 filePattern="logs/$${date:yyyy-MM}/app-%d{MM-dd-yyyy}-%i.log.gz">
+            <PatternLayout>
+                <Pattern>%-5p | %d{yyyy-MM-dd HH:mm:ss} | [%t] %C{2} (%F:%L) - %m%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+                <SizeBasedTriggeringPolicy size="2 MB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="10"/>
+        </RollingRandomAccessFile>
+
+        <Async name="Async">
+            <!-- reference to other appenders -->
+            <AppenderRef ref="LogToFile"/>
+        </Async>
+    </Appenders>
+
+    <Loggers>
+        <!-- avoid duplicated logs with additivity=false -->
+        <Logger name="FileLog" level="debug" additivity="false">
+            <AppenderRef ref="Async"/>
+        </Logger>
+
+        <Logger name="FileLog" level="error" additivity="false">
+            <AppenderRef ref="LogToConsole"/>
+        </Logger>
+
+        <Root level="all">
+            <AppenderRef ref="LogToConsole"/>
+            <AppenderRef ref="Async"/>
+        </Root>
+    </Loggers>
 
 </Configuration>
