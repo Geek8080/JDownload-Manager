@@ -1,9 +1,11 @@
 # Java-Download-Manager
  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-The Download Manager with great front-end and a back-end that has capability to download files faster than the slow browser downloads😎
+A Download Manager with great front-end and a back-end that has capability to download files faster than the slow browser downloads😎
 
-The Download manager uses the range connection to online resources to download the files faster than the Browser downloads. The download speed may reach upto 6 to 8 times the speed the browser offers. The front-end is simple yet elegant. You have a text field at the top of window. All you need to do is copy the link address from the browser and paste it in the text box. On pasting press enter. The application will add the download to its list and start downloading if the link is valid. The image below shows the application view.
+The Download manager uses range connection to online resources to download the files faster than the Browser downloads. **The download speed may reach upto 6 to 8 times the speed the browser offers.**
+
+The front-end is simple yet elegant. You have a text field at the top of window. All you need to do is copy the link address from the browser and paste it in the text box. And then, just press enter. The application will add the download to its list and start downloading if the link is valid. Below image shows the application view.
 
 <div align="center">
 <img src="/files/screencast.gif" >
